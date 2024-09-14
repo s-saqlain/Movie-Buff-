@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Fascinate+Inline&family=Faster+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Nerko+One&family=New+Amsterdam&family=Yuji+Syuku&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    cursor: url('swrod.png'), auto;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #000000;
+    position: fixed;
+    box-shadow: 0px 4px 5px black;
+    border-bottom: 2px solid white;
+}
+
+.MovieName {
+    display: flex;
+    width: 500px;
+    height: 80px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+#deadpool{
+    margin-left: 20px;
+    height: 80px;
+    width: 250px;
+}
+
+#and{
+    height: 50px;
+    width: 60px;
+}
+#wolverine{
+    margin-right: 20px;
+    height: 80px;
+    width: 250px;
+}
+
+ .links{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+ }
+.links ul {
+    display: flex;
+    width: 100%;
+}
+
+.links ul li{
+    font-family: "Bungee Tint", system-ui;
+    
+    margin-left: 30px;
+    list-style: none;
+}
+
+.links ul li a{
+    text-decoration: none;
+    color: rgb(190, 0, 0);
+    font-size: 20px;
+}
+
+
+
+#sectionHome{
+   
+    padding: 100px 0px 20px 20px;
+    background-color: #000000;
+    color: white;
+
+}
+#sectionHome p{
+    font-family: "Robot", sans-serif;
+}
+
+#sectionHome h1,h2{
+    text-align: center;
+    font-family: "Faster One", system-ui;
+    color: rgb(190, 0, 0);
+    font-size:3rem;
+    padding-bottom: 20px;
+    
+ }
+
+.posters{
+    width: 80%;
+    margin: 1em auto;
+    columns: 200px;
+    gap: 10px;
+}
+
+.posters img{
+    width: 100%;
+    border-radius: 8px;
+    margin:7px 0px ;
+}
+
+.posters img:hover{
+    width: 101%;
+}
+
+#sectionCharacters{
+    padding: 50px 20px 20px 20px;
+    width: 100%;
+    height: 700px;
+    background-color: #000000;
+}
+
+.CharContainer{
+    display: flex;
+   
+    justify-content: center;
+}
+
+.CharContainer div{
+    width: 20%;
+    background-color:rgb(190, 0, 0);
+    padding: 5px;
+    height: 550px;
+    margin-left: 40px;
+    text-align: center;
+    border-radius: 22px;
+    color: white;
+   
+    box-shadow: 10px 10px 0px white;
+    
+}
+
+.deadpool img{
+    height: 150px;
+    width: 280px;
+    border-radius: 22px 22px 0px 0px;
+}
+
+.wolverine img{
+    height: 150px;
+    width: 280px;
+    border-radius: 22px 22px 0px 0px;
+}
+.humanTorch img{
+    height: 150px;
+    width: 280px;
+    border-radius: 22px 22px 0px 0px;
+}
+.X-23 img{
+    height: 150px;
+    width: 280px;
+    border-radius: 22px 22px 0px 0px;
+}
+
+.CharContainer p{
+    color: white;
+    font-family:"Roboto", sans-serif ;
+}
+
+.CharContainer span{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.CharContainer h3{
+    padding: 5px ;
+    font-size: 25px;
+    font-family: "Fascinate Inline", system-ui;
+}
+
+#sectionTrailers{
+    background-color: black;
+}
+
+#sectionTrailers h1{
+    font-family:"Faster One", system-ui;
+    color: rgb(190, 0, 0);
+    font-size: 4rem;
+   text-align: center;
+}
+
+#sectionTrailers .container{
+    color: white;
+    text-align: center;
+}
+
+#sectionTrailers .container div{
+    padding: 20px;
+}
+
+#sectionTrailers .box{
+    width: 300px;
+    height: 200px;
+    border: 2px solid white ;
+    border-radius: 20px;
+    background-color: rgb(190, 0, 0);
+}
+
+.trailer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.dance{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 160px; 
+}
+
+.fight{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Jokes{
+    margin-left: 100px;
+}
+.container h4{
+    font-family:  "Yuji Syuku", serif;
+    font-weight: 600;
+}
+
+#QuotesBox {
+    font-family: "Italianno", cursive;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.container .name{
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 30px;
+}
+
+#FactsBox{
+    font-family: "Yuji Syuku", serif;
+    padding-top: 10px;
+    font-size: 13px;
+}
+
+#JokesBox{
+    font-family: "Nerko One", cursive;
+    padding-top: 20px;
+}
+#sectionQuiz{
+    width: 100%;
+    background-color: black;
+    color: white;
+    
+}
+
+#sectionQuiz h1{
+    font-family:"Faster One", system-ui;
+    color: rgb(190, 0, 0);
+    font-size: 4rem;
+   text-align: center;
+}
+
+.QuizQuestions{
+    font-size: 20px;
+    font-family:"Raleway",sans-serif ;
+    margin-left: 50px;
+}
+
+.QuizQuestions .question{
+    padding-bottom: 30px;
+}
+
+.QuizQuestions .question .mcq:hover{
+    cursor: pointer;
+}
+.mcq{
+    display: grid;
+    grid-template-rows:repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+}
